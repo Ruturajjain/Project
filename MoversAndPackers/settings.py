@@ -25,7 +25,7 @@ SECRET_KEY = '^vsn5_4cwx137&#e6rr6se9enuo7(-ltis=vf3e^(3%)2(_)^m'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['ruturaj98.pythonanywhere.com']
+ALLOWED_HOSTS = []
 
 
 # Application definition
