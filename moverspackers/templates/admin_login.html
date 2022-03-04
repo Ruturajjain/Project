@@ -58,7 +58,7 @@
 <body>
 <script>
     alert('logged in Successully');
-    window.location = "http://127.0.0.1:8000/admin_home";
+    window.location = ("{% url 'admin_home' %}");
 </script>
 {% endif %}
 
