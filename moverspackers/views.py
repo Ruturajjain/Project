@@ -24,9 +24,9 @@ def admin_login(request):
                 login(request, user)
                 error = 'yes'
             else:
-                error = 'yes'
+                error = 'no'
         except:
-            error = 'yes'
+            error = 'no'
     return render(request, 'admin_login.html', locals())
 
 
