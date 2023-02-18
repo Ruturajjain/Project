@@ -7,6 +7,7 @@ from moverspackers.models import *
 from datetime import date
 from django.db.models import Q
 # Create your views here.
+#addding comment to test
 
 def index(request):
     return render(request, 'index.html')
